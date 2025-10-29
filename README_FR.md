@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  🇫🇷 [Français](README_FR.md) | 🇬🇧 [English](README.md)
+  [🇬🇧 English](README.md) | [🇫🇷 Français](README_FR.md)
 </p>
 
 <p align="center">
-  <a href="https://palks.gumroad.com/">
-    <img src="https://img.shields.io/badge/Voir%20tous%20les%20packs-Gumroad-0a5645?style=for-the-badge" alt="Voir tous les packs sur Gumroad">
+  <a href="https://palks.gumroad.com/" target="_blank" style="background-color:#0a5645; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:bold;">
+    Voir tous les packs sur Gumroad
   </a>
 </p>
 
