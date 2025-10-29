@@ -1,3 +1,17 @@
+<p align="center">
+  <img src="docs/images/Palks_Studio.png" alt="Palks Studio" width="1200">
+</p>
+
+<p align="center">
+  [🇬🇧 English](README.md) | [🇫🇷 Français](README_FR.md)
+</p>
+
+<p align="center">
+  <a href="https://palks.gumroad.com/" target="_blank" style="background-color:#0a5645; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:bold;">
+    View all packs on Gumroad
+  </a>
+</p>
+
 # Flask Chatbot – Advanced Professional Template (Version 2.0)
 
 A complete project to create your own **conversational assistant with Flask**, ready to use:
