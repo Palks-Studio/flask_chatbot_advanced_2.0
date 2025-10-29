@@ -1,14 +1,17 @@
 <p align="center">
-  <img src="docs/images/Palks_Studio.png" alt="Palks Studio" width="1200">
+  <img src="docs/images/Palks_Studio.png" alt="VS Code Pack - Palks Studio">
 </p>
 
-<p align="center">
-  [🇬🇧 English](README.md) | [🇫🇷 Français](README_FR.md)
-</p>
+> 🇬🇧 English | [🇫🇷 Français](./README_FR.md)
+
+![Made for VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)
+![Platform](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
+![License](https://img.shields.io/badge/License-LICENCE.txt-lightgreen.svg)
 
 <p align="center">
-  <a href="https://palks.gumroad.com/" target="_blank" style="background-color:#0a5645; color:white; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:bold;">
-    View all packs on Gumroad
+  <a href="https://palks.gumroad.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Download%20on-Gumroad-orange?style=for-the-badge" alt="Download on Gumroad">
   </a>
 </p>
 
