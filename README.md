@@ -3,13 +3,11 @@
 </p>
 
 <p align="center">
-  🇬🇧 [English](README.md) | 🇫🇷 [Français](README_FR.md)
+  🇬🇧 English | [🇫🇷 Français](README_FR.md)
 </p>
 
 <p align="center">
-  <a href="https://palks.gumroad.com/">
-    <img src="https://img.shields.io/badge/View%20all%20packs-Gumroad-0a5645?style=for-the-badge" alt="View all packs on Gumroad">
-  </a>
+  👉 [**View all packs on Gumroad**](https://palks.gumroad.com/)
 </p>
 
 # Flask Chatbot – Advanced Professional Template (Version 2.0)
