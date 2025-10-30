@@ -127,14 +127,14 @@ The complete version is available under a commercial license.
 
 **Full version of the project available here**
 - Gumroad: https://palks.gumroad.com  
-- Itch: http://palks-studio.itch.io  
+- Itch.io: http://palks-studio.itch.io  
 - Ko-Fi: https://ko-fi.com/palksstudio
 
 ---
 
 ## Credits & License
 
-This template is an original creation by Palks Studio.
+This pack is an original creation by **Palks Studio**.
 Resale, redistribution or public modification without permission is prohibited.
 Personal and professional use is allowed.
 
@@ -146,7 +146,7 @@ Simplicity, clarity, efficiency.
 - Gumroad: https://palks.gumroad.com  
 - Discord: https://discord.gg/kzrSyThyZ7  
 - Twitter (X): https://x.com/PalksStudio  
-- Itch: http://palks-studio.itch.io  
+- Itch.io: http://palks-studio.itch.io  
 - Ko-Fi: https://ko-fi.com/palksstudio
 
 ---
@@ -155,4 +155,4 @@ Simplicity, clarity, efficiency.
 
 _Created by **Palks Studio** — Version 2.0 (Advanced Edition)_
 _Compatible with Python 3.12+ / Flask 3.0+_
-k 3.0+_
+
