@@ -18,7 +18,8 @@
 # Flask Chatbot – Advanced Professional Template (Version 2.0)
 
 A complete project to create your own **conversational assistant with Flask**, ready to use:
-- **locally (localhost)**
+
+- **locally (localhost)**  
 - **on shared hosting like o2switch (Passenger / cPanel)**
 
 No external database, no hidden dependencies. You can use it as-is, modify it, or integrate it into another site / API.
@@ -53,8 +54,9 @@ This GitHub repository is only a partial preview of the project.
 The `README.md` file represents only a small portion of the full documentation.
 
 The commercial version includes:
-- the complete source code (Python, HTML, JSON, scripts)
-- all documentation (INSTALL.md, TECHNICAL_README.md, examples, prompts, advanced customization…)
+
+- the complete source code (Python, HTML, JSON, scripts)  
+- all documentation (INSTALL.md, TECHNICAL_README.md, examples, prompts, advanced customization…)  
 - automatically generated files (`.env`, `data.db`, AI memory, etc.)
 
 The full source code is available exclusively under the **commercial licensed version**.
@@ -63,12 +65,12 @@ The full source code is available exclusively under the **commercial licensed ve
 
 ## Key Features
 
-- **Ready-to-use API:** `/chat` and `/` work immediately after installation
-- **Compatible with o2switch / Passenger (shared hosting)**
-- **No database required** (JSON file only)
-- **Readable, commented code, easily customizable**
-- **CORS enabled:** can be used with a website or front-end interface
-- **Built-in logging system:** errors automatically recorded in `/logs/` folder
+- **Ready-to-use API:** `/chat` and `/` work immediately after installation  
+- **Compatible with o2switch / Passenger (shared hosting)**  
+- **No database required** (JSON file only)  
+- **Readable, commented code, easily customizable**  
+- **CORS enabled:** can be used with a website or front-end interface  
+- **Built-in logging system:** errors automatically recorded in `/logs/` folder  
 - **Integrated graphical interface:** access via `/ui` (live chat in browser)
 
 ---
@@ -101,17 +103,19 @@ No token usage occurs if no key is provided.
 
 ## Error Logs
 
-The `logs/` folder is used to automatically record Flask server errors.
-- The file `logs/errors.log` is created automatically if an error occurs.
-- The `logs/` folder is generated if it does not exist (no need to create it manually).
-- Each error entry contains:
-  - the date and time
-  - the error message
-  - the full traceback for easier debugging
+The `logs/` folder is used to automatically record Flask server errors.  
+- The file `logs/errors.log` is created automatically if an error occurs.  
+- The `logs/` folder is generated if it does not exist (no need to create it manually).  
+- Each error entry contains:  
 
-This system works in:
-- local mode
-- with or without OpenAI
+  - the date and time  
+  - the error message  
+  - the full traceback for easier debugging  
+
+This system works in:  
+
+- local mode  
+- with or without OpenAI  
 - production (Passenger / shared hosting)
 
 ---
@@ -122,9 +126,9 @@ It does not include the full executable source code, prompts, or sensitive files
 The complete version is available under a commercial license.
 
 **Full version of the project available here**
-https://ko-fi.com/palksstudio  
-http://palks-studio.itch.io/  
-https://palks.gumroad.com/
+- Gumroad: https://palks.gumroad.com/  
+- Itch.io: http://palks-studio.itch.io/  
+- Ko-Fi: https://ko-fi.com/palksstudio
 
 ---
 
@@ -138,12 +142,12 @@ Personal and professional use is allowed.
 Creator of useful and self-contained tools: scripts, templates and ready-to-use bases.
 Simplicity, clarity, efficiency.
 
-GitHub: https://github.com/Palks-Studio  
-Gumroad: https://palks.gumroad.com/  
-Discord: https://discord.gg/kzrSyThyZ7  
-Twitter (X): https://x.com/PalksStudio  
-Itch.io: http://palks-studio.itch.io/  
-Ko-Fi: https://ko-fi.com/palksstudio
+- GitHub: https://github.com/Palks-Studio  
+- Gumroad: https://palks.gumroad.com/  
+- Discord: https://discord.gg/kzrSyThyZ7  
+- Twitter (X): https://x.com/PalksStudio  
+- Itch.io: http://palks-studio.itch.io/  
+- Ko-Fi: https://ko-fi.com/palksstudio
 
 ---
 
