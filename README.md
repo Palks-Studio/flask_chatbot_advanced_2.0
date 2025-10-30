@@ -127,7 +127,7 @@ The complete version is available under a commercial license.
 
 **Full version of the project available here**
 - Gumroad: https://palks.gumroad.com/  
-- Itch.io: http://palks-studio.itch.io/  
+- Itch: http://palks-studio.itch.io/  
 - Ko-Fi: https://ko-fi.com/palksstudio
 
 ---
@@ -146,7 +146,7 @@ Simplicity, clarity, efficiency.
 - Gumroad: https://palks.gumroad.com/  
 - Discord: https://discord.gg/kzrSyThyZ7  
 - Twitter (X): https://x.com/PalksStudio  
-- Itch.io: http://palks-studio.itch.io/  
+- Itch: http://palks-studio.itch.io/  
 - Ko-Fi: https://ko-fi.com/palksstudio
 
 ---
