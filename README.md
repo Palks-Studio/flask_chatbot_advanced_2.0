@@ -126,8 +126,8 @@ It does not include the full executable source code, prompts, or sensitive files
 The complete version is available under a commercial license.
 
 **Full version of the project available here**
-- Gumroad: https://palks.gumroad.com/  
-- Itch: http://palks-studio.itch.io/  
+- Gumroad: https://palks.gumroad.com  
+- Itch: http://palks-studio.itch.io  
 - Ko-Fi: https://ko-fi.com/palksstudio
 
 ---
@@ -143,10 +143,10 @@ Creator of useful and self-contained tools: scripts, templates and ready-to-use 
 Simplicity, clarity, efficiency.
 
 - GitHub: https://github.com/Palks-Studio  
-- Gumroad: https://palks.gumroad.com/  
+- Gumroad: https://palks.gumroad.com  
 - Discord: https://discord.gg/kzrSyThyZ7  
 - Twitter (X): https://x.com/PalksStudio  
-- Itch: http://palks-studio.itch.io/  
+- Itch: http://palks-studio.itch.io  
 - Ko-Fi: https://ko-fi.com/palksstudio
 
 ---
@@ -155,3 +155,4 @@ Simplicity, clarity, efficiency.
 
 _Created by **Palks Studio** — Version 2.0 (Advanced Edition)_
 _Compatible with Python 3.12+ / Flask 3.0+_
+k 3.0+_
