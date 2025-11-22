@@ -29,11 +29,11 @@ Flask_Chatbot_Avance_2.0/ (Version Lite)
 ├── .env.example                   ← Exemple de configuration de l’API
 │
 ├── version_publique/
-│   ├── exemple_structure.txt      ← Aperçu complet de l’arborescence du projet (sans code)
+│   └── exemple_structure.txt      ← Aperçu complet de l’arborescence du projet (sans code)
 │
 └── docs/
-    ├── images/
-    │   └── Palks_Studio.png       ← Logo Palks Studio
+    └── images/
+        └── Palks_Studio.png       ← Logo Palks Studio
 ```
 
 
