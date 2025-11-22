@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/Palks_Studio.png" alt="VS Code Pack - Palks Studio">
+  <img src="docs/images/Palks_Studio.png" alt="Palks Studio">
 </p>
 
 > 🇫🇷 Français | [🇬🇧 English](./README.md)
