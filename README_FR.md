@@ -43,7 +43,7 @@ Flask_Chatbot_Avance_2.0/ (Version Lite)
 Ce dépôt GitHub n’est qu’un aperçu partiel du projet.
 Le fichier `README.md` représente uniquement une petite partie de la documentation complète.
 
-La version commerciale inclut :
+La version commerciale inclut :  
 
 - le code source complet (Python, HTML, JSON, scripts)  
 - toute la documentation (INSTALL.md, README_TECHNIQUE.md, exemples, prompts, personnalisation avancée…)  
@@ -116,9 +116,7 @@ La version complète est disponible via la licence commerciale.
 **Version complète du projet disponible ici** 
 - [Gumroad](https://palks.gumroad.com)  
 - [Itch.io](https://palks-studio.itch.io)  
-- [Ko-fi](https://ko-fi.com/palksstudio)
-
----
+- [Ko-fi](https://ko-fi.com/palksstudio)  
 
 <p align="center">
   <a href="https://palks.gumroad.com/" target="_blank">
