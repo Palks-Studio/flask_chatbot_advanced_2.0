@@ -114,9 +114,9 @@ Il ne contient pas l’intégralité du code source exécutable, des prompts, ni
 La version complète est disponible via la licence commerciale.
 
 **Version complète du projet disponible ici** 
-- Gumroad : https://palks.gumroad.com
-- Itch.io : http://palks-studio.itch.io  
-- Ko-fi : https://ko-fi.com/palksstudio 
+- [Gumroad](https://palks.gumroad.com)  
+- [Itch.io](https://palks-studio.itch.io)  
+- [Ko-fi](https://ko-fi.com/palksstudio)
 
 ---
 
