@@ -117,9 +117,9 @@ It does not include the full executable source code, prompts, or sensitive files
 The complete version is available under a commercial license.
 
 **Full version of the project available here**
-- [Gumroad](https://palks.gumroad.com)  
-- [Itch.io](https://palks-studio.itch.io)  
-- [Ko-fi](https://ko-fi.com/palksstudio)  
+- Gumroad: https://palks.gumroad.com  
+- Itch.io: http://palks-studio.itch.io  
+- Ko-fi: https://ko-fi.com/palksstudio  
 
 <p align="center">
   <a href="https://palks.gumroad.com/" target="_blank">
@@ -157,6 +157,5 @@ Simplicity, clarity, efficiency.
 
 ## Signature
 
-_Created by **Palks Studio** — Version 2.0 (Advanced Edition)_
-_Compatible with Python 3.12+ / Flask 3.0+_
-
+**Palks Studio — Version 2.0 (Advanced Edition)**  
+Compatible with Python 3.12+ and Flask 3.0+
