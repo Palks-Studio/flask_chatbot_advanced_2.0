@@ -150,7 +150,7 @@ Simplicity, clarity, efficiency.
 - GitHub: https://github.com/Palks-Studio  
 - Gumroad: https://palks.gumroad.com  
 - Itch.io: http://palks-studio.itch.io  
-- Ko-fi: https://ko-fi.com/palksstudio
+- Ko-fi: https://ko-fi.com/palksstudio  
 - Twitter (X): https://x.com/PalksStudio
 
 ---
