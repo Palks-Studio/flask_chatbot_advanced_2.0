@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/Palks_Studio.png" alt="Palks Studio">
+  <img src="docs/images/Palks_Studio.png" alt="Palks Studio" width="600">
 </p>
 
 > 🇬🇧 English | [🇫🇷 Français](./README_FR.md)
@@ -116,7 +116,7 @@ This GitHub repository showcases the structure and features of the project.
 It does not include the full executable source code, prompts, or sensitive files (.env, data.db, AI memory, etc.).
 The complete version is available under a commercial license.
 
-**Full version of the project available here**
+**Full version of the project available here**  
 - Gumroad: https://palks.gumroad.com  
 - Itch.io: http://palks-studio.itch.io  
 - Ko-fi: https://ko-fi.com/palksstudio  
@@ -144,8 +144,7 @@ Resale, redistribution or public modification without permission is prohibited.
 Personal and professional use is allowed.
 
 **Palks Studio**
-Creator of useful and self-contained tools: scripts, templates and ready-to-use bases.
-Simplicity, clarity, efficiency.
+Independent creator of useful, autonomous digital tools.
 
 - GitHub: https://github.com/Palks-Studio  
 - Gumroad: https://palks.gumroad.com  
@@ -159,3 +158,4 @@ Simplicity, clarity, efficiency.
 
 **Palks Studio — Version 2.0 (Advanced Edition)**  
 Compatible with Python 3.12+ and Flask 3.0+
+
