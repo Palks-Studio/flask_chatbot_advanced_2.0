@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="docs/images/Palks_Studio.png" alt="Palks Studio" width="600">
+  <img src="docs/images/Palks_Studio.png" alt="Palks Studio">
 </p>
 
 > 🇫🇷 Français | [🇬🇧 English](./README.md)
 
-![License](https://img.shields.io/badge/License-LICENSE.txt-lightgreen.svg)
+![Licence](https://img.shields.io/badge/Licence-LICENCE.txt-lightgreen.svg)
 
 # Flask Chatbot – Template Professionnel Avance (Version 2.0)
 
-Un projet complet pour créer ton propre **assistant conversationnel avec Flask**, prêt à être utilisé :
+Un projet complet pour créer ton propre **assistant conversationnel avec Flask**, prêt à être utilisé :  
 
 - **en local (localhost)**  
 - **sur un hébergement mutualisé comme o2switch (Passenger / cPanel)**
@@ -23,7 +23,7 @@ Aucune base externe, aucune dépendance cachée. Tu peux l’utiliser tel quel, 
 Flask_Chatbot_Avance_2.0/ (Version Lite)
 │
 ├── README_FR.md                   ← Documentation principale (publique)
-├── LICENCE.txt                    ← Licence propriétaire (Palks Studio)
+├── LICENCE_FR.md                  ← Licence propriétaire (Palks Studio)
 ├── CUSTOMISATION.md               ← Guide et explications de personnalisation
 ├── requirements.txt               ← Dépendances Python principales
 ├── .env.example                   ← Exemple de configuration de l’API
@@ -39,8 +39,8 @@ Flask_Chatbot_Avance_2.0/ (Version Lite)
 
 *Cette arborescence est présentée à titre informatif.*
 
-**⚠ Important**
-Ce dépôt GitHub n’est qu’un aperçu partiel du projet.
+**⚠ Important**  
+Ce dépôt GitHub n’est qu’un aperçu partiel du projet.  
 Le fichier `README.md` représente uniquement une petite partie de la documentation complète.
 
 La version commerciale inclut :  
@@ -65,7 +65,7 @@ Le code complet est disponible uniquement dans la **version commerciale sous lic
 
 ## Fichiers générés automatiquement
 
-Lorsque vous lancez le chatbot pour la première fois, certains fichiers sont créés automatiquement :
+Lorsque vous lancez le chatbot pour la première fois, certains fichiers sont créés automatiquement :  
 
 | Fichier        | Rôle                                           |
 |----------------|-------------------------------------------------|
@@ -92,13 +92,14 @@ Aucune consommation de tokens si aucune clé n'est renseignée.
 ## Journaux d’erreurs (Logs)
 
 Le dossier `logs/` permet d’enregistrer automatiquement les erreurs du serveur Flask.  
-- Le fichier `logs/errors.log` est créé automatiquement si une erreur survient.  
-- Le dossier `logs/` est généré s’il n’existe pas (pas besoin de le créer manuellement).  
+- Le fichier `logs/errors.log` est créé automatiquement si une erreur survient  
+- Le dossier `logs/` est généré s’il n’existe pas (pas besoin de le créer manuellement)  
+
 - Chaque erreur contient :  
 
   - la date et l’heure  
   - le message d’erreur  
-  - la trace complète (`traceback`) pour faciliter le débogage  
+  - la trace complète (`traceback`) pour faciliter le débogage
 
 Ce système fonctionne aussi bien :  
 
@@ -108,15 +109,15 @@ Ce système fonctionne aussi bien :
 
 ---
 
-**Note**
-Ce dépôt GitHub présente la structure et les fonctionnalités du projet.
-Il ne contient pas l’intégralité du code source exécutable, des prompts, ni des fichiers sensibles (`.env`, `data.db`, mémoire IA...).
+**Note**  
+Ce dépôt GitHub présente la structure et les fonctionnalités du projet.  
+Il ne contient pas l’intégralité du code source exécutable, des prompts, ni des fichiers sensibles (`.env`, `data.db`, mémoire IA...).  
 La version complète est disponible via la licence commerciale.
 
 **Version complète du projet disponible ici**  
 - Itch.io : http://palks-studio.itch.io  
 - Ko-fi : https://ko-fi.com/palksstudio  
-- Gumroad : https://palks.gumroad.com  
+- Gumroad : https://palks.gumroad.com
 
 <p align="center">
   <a href="https://palks.gumroad.com/" target="_blank">
@@ -134,24 +135,9 @@ La version complète est disponible via la licence commerciale.
 
 ---
 
-## Crédits et licence
-
-Ce pack est une création originale de **Palks Studio**.
-Toute revente, redistribution ou modification publique sans autorisation préalable est strictement interdite.
-L’usage personnel et professionnel est autorisé.
-
-**Palks Studio**
-Créateur indépendant d’outils digitaux utiles et autonomes.
-
-- GitHub : https://github.com/Palks-Studio  
-- Gumroad : https://palks.gumroad.com  
-- Itch.io : http://palks-studio.itch.io  
-- Ko-fi : https://ko-fi.com/palksstudio  
-- Twitter (X) : https://x.com/Palks_Studio
-
----
-
 ## Signature
 
 **Palks Studio — Version 2.0 (Édition Avancée)**  
 Compatible avec Python 3.12+ et Flask 3.0+
+
+© Palks Studio — voir LICENCE_FR.md
