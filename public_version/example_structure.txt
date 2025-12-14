@@ -14,7 +14,7 @@ Flask_Chatbot_Advanced_2.0/
 ├── Dockerfile                  ← Dockerfile ← (optional) Docker container
 ├── docker-compose.yml          ← docker-compose.yml ← (optional) Simplified Docker launch
 │
-├── LICENSE.txt                 ← License / usage terms
+├── LICENSE_EN.md               ← License / usage terms
 ├── install.bat                 ← Windows installation script (pip install + launch)
 ├── install.sh                  ← Linux/Mac script (chmod + pip install)
 │
