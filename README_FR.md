@@ -32,8 +32,12 @@ Flask_Chatbot_Avance_2.0/ (Version Lite)
 │   └── exemple_structure.txt      ← Aperçu complet de l’arborescence du projet (sans code)
 │
 └── docs/
-    └── images/
-        └── Palks_Studio.png       ← Logo Palks Studio
+    ├── images/
+    │   └── Palks_Studio.png       ← Logo Palks Studio
+    │ 
+    └── videos/
+        └── bot_2.0_local_fr.mp4   ← Démonstration du chatbot exécuté en local,  
+                                   avec mémoire de session et sans conflit entre navigateurs.
 ```
 
 
@@ -86,6 +90,8 @@ Lorsque vous lancez le chatbot pour la première fois, certains fichiers sont cr
 
 Le choix se fait automatiquement selon la présence de la variable `OPENAI_API_KEY` dans `.env`.  
 Aucune consommation de tokens si aucune clé n'est renseignée.
+
+Note : le mode strict et le comportement sécurisé pour les environnements professionnels sont disponibles uniquement dans la version complète commerciale.
 
 ---
 
