@@ -23,7 +23,7 @@ Aucune base externe, aucune dépendance cachée. Tu peux l’utiliser tel quel, 
 chatbot_flask_avance_2.0_lite/
 │
 ├── README_FR.md                   ← Documentation principale (publique)
-├── LICENSE.md                     ← Conditions d’utilisation et cadre légal
+├── LICENCE.md                     ← Conditions d’utilisation et cadre légal
 ├── CUSTOMISATION.md               ← Guide et explications de personnalisation
 ├── requirements.txt               ← Dépendances Python principales
 ├── .env.example                   ← Exemple de configuration de l’API
