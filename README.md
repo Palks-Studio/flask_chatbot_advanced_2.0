@@ -22,21 +22,21 @@ No external database, no hidden dependencies. You can use it as-is, modify it, o
 ```
 flask_chatbot_advanced_2.0_lite/
 │
-├── README_EN.md                   ← Main documentation (public)
-├── LICENSE.md                     ← Terms of use and legal framework
-├── CUSTOMISATION.md               ← Customization guide and explanations
-├── requirements.txt               ← Main Python dependencies
-├── .env.example                   ← Example of API configuration
+├── README_EN.md                   → Main documentation (public)
+├── LICENSE.md                     → Terms of use and legal framework
+├── CUSTOMISATION.md               → Customization guide and explanations
+├── requirements.txt               → Main Python dependencies
+├── .env.example                   → Example of API configuration
 │
 ├── public_version/
-│   └── example_structure.txt      ← Full project structure overview (no code)
+│   └── example_structure.txt      → Full project structure overview (no code)
 │
 └── docs/
     ├── images/
-    │   └── Palks_Studio.png       ← Palks Studio logo
+    │   └── Palks_Studio.png       → Palks Studio logo
     │ 
     └── videos/
-        └── bot_2.0_local.mp4      ← Chatbot demo videos running locally,  
+        └── bot_2.0_local.mp4      → Chatbot demo videos running locally,  
                                    using session-based memory with no cross-browser conflicts.
 ```
 
@@ -100,11 +100,9 @@ Note: Strict Mode and enterprise-safe behavior are available only in the commerc
 ## Error Logs
 
 The `logs/` folder is used to automatically record Flask server errors.  
-- The file `logs/errors.log` is created automatically if an error occurs.  
-- The `logs/` folder is generated if it does not exist (no need to create it manually).  
-
+- The file `logs/errors.log` is created automatically if an error occurs  
+- The `logs/` folder is generated if it does not exist (no need to create it manually)  
 - Each error entry contains:  
-
   - the date and time  
   - the error message  
   - the full traceback for easier debugging
