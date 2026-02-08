@@ -1,6 +1,0 @@
-# Dependencies required to run the local Flask chatbot (+ OpenAI option)
-flask==3.0.3
-flask-cors==4.0.0
-gunicorn==22.0.0
-openai==1.57.0         # only if OpenAI is enabled
-python-dotenv==1.0.1   # allows reading the .env file
