@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/chatbot_fr_1.png"
+  <img src="docs/images/chatbot_fr.png"
        alt="Chatbot conversation interface — example of a local Flask chatbot in use"
        width="1200">
 </p>
