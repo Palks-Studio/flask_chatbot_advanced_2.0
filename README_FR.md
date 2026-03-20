@@ -10,6 +10,7 @@
 ![OpenAI Optional](https://img.shields.io/badge/OpenAI-Optional-412991.svg)
 ![Flask](https://img.shields.io/badge/Framework-Flask-000000?style=flat)
 ![Offline First](https://img.shields.io/badge/Mode-Offline%20First-0095b1?style=flat)
+[![Flask Chatbot](https://img.shields.io/badge/Flask%20Chatbot-0095b1?style=flat)](https://palks-studio.com/fr/chatbot-flask)
 
 <p align="center">
   <a href="https://palks-studio.com">
