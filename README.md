@@ -31,6 +31,8 @@ A complete project to build your own **Flask-based conversational assistant**, r
 
 No external database, no hidden dependencies. You can use it as-is, modify it, or integrate it into another website or API.
 
+[![Flask Chatbot](https://img.shields.io/badge/Flask%20Chatbot-0095b1?style=flat)](https://palks-studio.com/en/flask-chatbot)
+
 ---
 
 ## Overview
