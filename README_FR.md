@@ -54,43 +54,19 @@ L’architecture privilégie :
 ```
 chatbot_flask_avance_2.0/
 │
-├── app.py                      → Point d’entrée Flask (serveur + routes API)
-├── main.py                     → Logique du bot : réponses (OpenAI + JSON local)
-├── storage.py                  → Gestion SQLite (sauvegarde & lecture de l’historique)
-│
-├── passenger_wsgi.py           → Pour hébergement sur o2switch / Passenger
-├── requirements.txt            → Dépendances Python (Flask, CORS, SQLite, OpenAI...)
-├── .env.example                → Modèle pour l’utilisateur (“remplir sa clé API ici”)
-│                                 # ⚠ Le fichier `.env` n’est PAS inclus (l’utilisateur doit le créer s’il veut utiliser OpenAI)
-│                                 # ⚠ Le fichier `data.db` n’est pas fourni (il se crée automatiquement au premier lancement)
-│
-├── Dockerfile                  → (optionnel) Conteneur Docker
-├── docker-compose.yml          → (optionnel) Lancement Docker simplifié
-│
-├── LICENCE.md                  → Conditions d’utilisation et cadre légal
-│
-├── install.bat                 → Script d’installation Windows (pip install + launch)
-├── install.sh                  → Script Linux/Mac (chmod + pip install)
-│
-├── sample_data/
-│   └── sample_data.json        → Base de contenus locale (FAQ, réponses simples)
-│
-├── templates/
-│   ├── index.html              → Interface utilisateur (frontend du chatbot)
-│   └── widget.html             → Nouvelle interface flottante
-│
-│── static/
-│   ├── widget.js               → Script d’ouverture/fermeture du widget flottant
-│   └── widget.css              → Style dédié au widget flottant (bouton + mini-fenêtre)
-│
-├── logs/
-│   └── errors.log              → Se crée automatiquement si erreur
+├── core/                     → Logique du chatbot et traitement des requêtes
+├── interface/                → Interface utilisateur (chat et widget)
+├── storage/                  → Couche de persistance optionnelle
+├── config/                   → Configuration de l’environnement et dépendances
+├── deployment/               → Déploiement (hébergement et conteneurisation)
+├── data/                     → Base de connaissances d’exemple
+├── logs/                     → Suivi et journalisation des erreurs
 │
 └── docs/
-    ├── INSTALL.md              → Guide utilisateur complet
-    ├── README_TECHNIQUE.md     → Documentation principale du projet
-    ├── README.md               → Documentation et guides du projet
-    └── CUSTOMISATION.md        → Personnalisation du bot (design, réponses, OpenAI…)
+    ├── INSTALL.md            → Guide utilisateur complet
+    ├── README_TECHNIQUE.md   → Documentation principale du projet
+    ├── README.md             → Documentation et guides du projet
+    └── CUSTOMISATION.md      → Personnalisation du bot (design, réponses, OpenAI…)
 ```
 
 
@@ -125,35 +101,35 @@ ou utiliser OpenAI de manière optionnelle lorsque des réponses étendues sont 
 
 Lorsque le chatbot est lancé pour la première fois, certains fichiers sont créés automatiquement :  
 
-| Fichier           | Rôle                                            |
-|-------------------|-------------------------------------------------|
-| `data.db`         | Base SQLite enregistrant les conversations (si `ENABLE_PERSISTENCE=true`) |
-| `logs/errors.log` | Créé uniquement en cas d’erreur serveur |
-| `.env`            | À créer à partir de `.env.example` pour activer OpenAI |
+| Fichier                 | Rôle                                                                            |
+|-------------------------|---------------------------------------------------------------------------------|
+| Fichier de persistance  | Peut être généré pour stocker les conversations si la persistance est activée   |
+| `logs/errors.log`       | Créé uniquement en cas d’erreur serveur                                         |
+| Fichier d’environnement | À créer à partir du modèle fourni pour activer les fonctionnalités optionnelles |
 
 ---
 
 ## Modes de fonctionnement
 
-| Mode         | Description                                              | Nécessite une clé OpenAI |
-|--------------|----------------------------------------------------------|---------------------------|
-| **Local JSON** (par défaut) | Réponses générées depuis la base locale | Non |
-| **OpenAI GPT (optionnel)**  | Utilisation de l’API OpenAI si une clé est fournie | Oui |
+| Mode                        | Description                                        | Nécessite une clé OpenAI |
+|-----------------------------|----------------------------------------------------|--------------------------|
+| **Local JSON** (par défaut) | Réponses générées depuis la base locale            | Non                      |
+| **OpenAI GPT (optionnel)**  | Utilisation de l’API OpenAI si une clé est fournie | Oui                      |
 
-Le choix se fait automatiquement selon la présence de la variable `OPENAI_API_KEY` dans `.env`.  
+Le mode est automatiquement sélectionné en fonction de la présence d’une configuration d’API dans l’environnement.  
 Aucune consommation de tokens si aucune clé n'est renseignée.
 
 ---
 
 ## Journaux d’erreurs (Logs)
 
-Le dossier `logs/` permet d’enregistrer automatiquement les erreurs du serveur Flask :
+Le dossier `logs/` permet d’enregistrer automatiquement les erreurs du serveur Flask :  
 
-- création automatique du fichier `logs/errors.log` en cas d’erreur
-- génération automatique du dossier `logs/` si nécessaire
+- création automatique des fichiers de journalisation en cas d’erreur  
+- génération automatique du dossier `logs/` si nécessaire  
 - enregistrement de la date, du message et de la trace complète (`traceback`)
 
-Ce système fonctionne :
+Ce système fonctionne :  
 
 - en mode local  
 - avec ou sans OpenAI  
