@@ -54,43 +54,19 @@ The architecture prioritizes:
 ```
 flask_chatbot_advanced_2.0/
 │
-├── app.py                      → Flask entry point (server + API routes)
-├── main.py                     → Bot logic: responses (OpenAI + local JSON)
-├── storage.py                  → SQLite-based conversation history (save & read)
-│
-├── passenger_wsgi.py           → For hosting on o2switch / Passenger
-├── requirements.txt            → Python dependencies (Flask, CORS, SQLite, OpenAI...)
-├── .env.example                → Template for the user (“fill in your API key here”)
-│                                 # ⚠ The .env file is NOT included (user must create it to use OpenAI)
-│                                 # ⚠ The data.db file is not provided (created automatically on first run)
-│
-├── Dockerfile                  → Dockerfile → (optional) Docker container
-├── docker-compose.yml          → docker-compose.yml → (optional) Simplified Docker launch
-│
-├── LICENSE.md                  → Terms of use and legal framework
-│
-├── install.bat                 → Windows installation script (pip install + launch)
-├── install.sh                  → Linux/Mac script (chmod + pip install)
-│
-├── sample_data/
-│   └── sample_data.json        → Local content database (FAQ, simple answers)
-│
-├── templates/
-│   ├── index.html              → User interface (chatbot frontend)
-│   └── widget.html             → New floating interface
-│
-├── static/
-│   ├── widget.js               → Script to open/close the floating widget
-│   └── widget.css              → Style for the floating widget (button + mini-window)
-│
-├── logs/
-│   └── errors.log              → Automatically created on error
+├── core/                     → Chatbot logic and processing
+├── interface/                → Frontend (chat UI and widget)
+├── storage/                  → Optional persistence layer
+├── config/                   → Environment and dependencies
+├── deployment/               → Hosting and container setup
+├── data/                     → Example knowledge base
+├── logs/                     → Error tracking system
 │
 └── docs/
-    ├── README_TECHNIQUE.md     → Technical documentation and internal architecture
-    ├── README.md               → Main project documentation and guides
-    ├── CUSTOMISATION.md        → Bot customization (design, responses, OpenAI…)
-    └── INSTALL.md              → Complete user guide
+    ├── README_TECHNIQUE.md   → Technical documentation and internal architecture
+    ├── README.md             → Main project documentation and guides
+    ├── CUSTOMISATION.md      → Bot customization (design, responses, OpenAI…)
+    └── INSTALL.md            → Complete user guide
 ```
 
 
@@ -125,22 +101,22 @@ or optionally use OpenAI when extended responses are required.
 
 When the chatbot is launched for the first time, some files are created automatically:  
 
-| File              | Purpose |
-|-------------------|---------|
-| `data.db`         | SQLite database storing conversations (if `ENABLE_PERSISTENCE=true`) |
-| `logs/errors.log` | Created only when a server error occurs |
-| `.env`            | Must be created from `.env.example` to enable OpenAI |
+| File                    | Purpose                                                                |
+|-------------------------|------------------------------------------------------------------------|
+| Persistence file        | May be generated to store conversations if persistence is enabled      |
+| `logs/errors.log`       | Created only when a server error occurs                                |
+| Environment file        | Must be created from the provided template to enable optional features |
 
 ---
 
 ## Operating Modes
 
-| Mode | Description | Requires OpenAI Key |
-|------|-------------|---------------------|
-| **Local JSON** (default) | Responses generated from the local knowledge base | No |
-| **OpenAI GPT (optional)** | Uses OpenAI API when a key is provided | Yes |
+| Mode                      | Description                                       | Requires OpenAI Key |
+|---------------------------|---------------------------------------------------|---------------------|
+| **Local JSON** (default)  | Responses generated from the local knowledge base | No                  |
+| **OpenAI GPT (optional)** | Uses OpenAI API when a key is provided            | Yes                 |
 
-The mode is automatically selected depending on the presence of the `OPENAI_API_KEY` variable in `.env`.  
+The mode is automatically selected based on the presence of an API configuration in the environment.  
 No tokens are consumed if no key is provided.
 
 ---
@@ -149,7 +125,7 @@ No tokens are consumed if no key is provided.
 
 The `logs/` directory automatically records Flask server errors:  
 
-- automatic creation of `logs/errors.log` when an error occurs  
+- automatic creation of log files when an error occurs  
 - automatic creation of the `logs/` directory if missing  
 - recording of date, error message and full traceback
 
