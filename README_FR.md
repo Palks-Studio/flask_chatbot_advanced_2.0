@@ -70,6 +70,9 @@ chatbot_flask_avance_2.0/
 ```
 
 
+YouTube :
+https://www.youtube.com/watch?v=d9_Umxr8Kgg&list=PLT6z0N8jT5qc
+
 ---
 
 ## Points forts
