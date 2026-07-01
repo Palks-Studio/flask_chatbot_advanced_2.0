@@ -70,6 +70,9 @@ flask_chatbot_advanced_2.0/
 ```
 
 
+YouTube :
+https://www.youtube.com/watch?v=EqudjEgRfNY&list=PLUF3rX2oTtqs
+
 ---
 
 ## Key Features
