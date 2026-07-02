@@ -20,7 +20,7 @@
   </a>
 </p>
 
-# Chatbot Flask Avance — Version 2.0
+# Chatbot Flask Avancé — Version 2.0
 
 > Ce dépôt constitue une présentation technique et une documentation du projet.  
 > Il ne contient pas de code source téléchargeable ni de fichiers de production.
