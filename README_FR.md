@@ -32,7 +32,7 @@ Un projet complet pour créer ton propre **assistant conversationnel avec Flask*
 
 Aucune base externe, aucune dépendance cachée. Tu peux l’utiliser tel quel, le modifier ou l’intégrer dans un autre site ou une API.
 
-[![Flask Chatbot](https://img.shields.io/badge/Flask%20Chatbot-0095b1?style=flat)](https://palks-studio.com/fr/chatbot-flask)
+[Voir la ressource](https://palks-studio.com/fr/chatbot-flask)
 
 ---
 
@@ -72,8 +72,7 @@ chatbot_flask_avance_2.0/
 ```
 
 
-YouTube :
-https://www.youtube.com/watch?v=d9_Umxr8Kgg&list=PLT6z0N8jT5qc
+Curieux de découvrir l'application complète ? La playlist de démonstration est disponible ici : [Voir la playlist complète de démonstration](https://www.youtube.com/watch?v=d9_Umxr8Kgg&list=PLT6z0N8jT5qc)
 
 ---
 
