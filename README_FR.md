@@ -10,6 +10,8 @@
 ![OpenAI Optional](https://img.shields.io/badge/OpenAI-Optional-412991.svg)
 ![Flask](https://img.shields.io/badge/Framework-Flask-000000?style=flat)
 ![Offline First](https://img.shields.io/badge/Mode-Offline%20First-0095b1?style=flat)
+[![YouTube](https://img.shields.io/badge/YouTube-@Palks__Studio-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@Palks_Studio)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-@Palks__Studio-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/palks-studio/)
 [![Flask Chatbot](https://img.shields.io/badge/Flask%20Chatbot-0095b1?style=flat)](https://palks-studio.com/fr/chatbot-flask)
 
 <p align="center">
