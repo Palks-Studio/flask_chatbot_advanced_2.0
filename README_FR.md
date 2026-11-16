@@ -12,6 +12,7 @@
 ![Offline First](https://img.shields.io/badge/Mode-Offline%20First-0095b1?style=flat)
 [![YouTube](https://img.shields.io/badge/YouTube-@Palks__Studio-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@Palks_Studio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-@Palks__Studio-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/palks-studio/)
+[![DEV.to](https://img.shields.io/badge/DEV.to-Technical%20Article-7C3AED?style=flat&logo=devdotto&logoColor=white)](https://dev.to/palks_studio/building-a-local-personal-assistant-instead-of-using-saas-tools-3fpn)
 [![Flask Chatbot](https://img.shields.io/badge/Flask%20Chatbot-0095b1?style=flat)](https://palks-studio.com/fr/chatbot-flask)
 
 <p align="center">
@@ -74,6 +75,10 @@ chatbot_flask_avance_2.0/
 
 Curieux de découvrir l'application complète ? La playlist de démonstration est disponible ici : [Voir la playlist complète de démonstration](https://www.youtube.com/watch?v=d9_Umxr8Kgg&list=PLT6z0N8jT5qc)
 
+Pour aller plus loin, un article technique présente la conception de cet assistant conversationnel local, les choix d'architecture et l'intérêt de développer son propre assistant plutôt que de dépendre d'outils SaaS.
+
+👉 [Building a Local Personal Assistant Instead of Using SaaS Tools](https://dev.to/palks_studio/building-a-local-personal-assistant-instead-of-using-saas-tools-3fpn) (DEV.to, en anglais)
+
 ---
 
 ## Points forts
@@ -101,9 +106,9 @@ ou utiliser OpenAI de manière optionnelle lorsque des réponses étendues sont 
 
 ---
 
-## Fichiers générés automatiquement
+## Fichiers de configuration et fichiers générés automatiquement
 
-Lorsque le chatbot est lancé pour la première fois, certains fichiers sont créés automatiquement :  
+Certains fichiers sont générés automatiquement lors de l'utilisation du chatbot, tandis que d'autres doivent être configurés selon les fonctionnalités souhaitées.
 
 | Fichier                 | Rôle                                                                            |
 |-------------------------|---------------------------------------------------------------------------------|
@@ -120,8 +125,9 @@ Lorsque le chatbot est lancé pour la première fois, certains fichiers sont cr�
 | **Local JSON** (par défaut) | Réponses générées depuis la base locale            | Non                      |
 | **OpenAI GPT (optionnel)**  | Utilisation de l’API OpenAI si une clé est fournie | Oui                      |
 
-Le mode est automatiquement sélectionné en fonction de la présence d’une configuration d’API dans l’environnement.  
-Aucune consommation de tokens si aucune clé n'est renseignée.
+La base de connaissances locale reste prioritaire. Lorsqu'une clé API OpenAI est configurée, le chatbot peut également utiliser OpenAI pour fournir des réponses étendues.
+
+Aucun appel à l'API OpenAI n'est effectué en l'absence de clé configurée.
 
 ---
 
